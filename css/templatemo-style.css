@@ -9,7 +9,7 @@ http://www.templatemo.com/tm-515-eatery
   @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
   body {
-    background: #ffffff;
+    background: #fffdfd;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
   }
@@ -691,12 +691,11 @@ http://www.templatemo.com/tm-515-eatery
     color: #ffffff;
   }
 
- .wp{
-  margin-left: 70px;
- }
- .wpt{
  
-  justify-items: center;
+ .wp{
+  
+  width: 400px;
+  height: 400px;
  }
 
 .wp:hover{
