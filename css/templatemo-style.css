@@ -668,28 +668,14 @@ http://www.templatemo.com/tm-515-eatery
     transition: all ease-in-out 0.4s;
   }
 
-  #contact .form-control:hover,
-  #contact .form-control:focus {
-    border-bottom-color: #c9c9c9;
+  .container{
+    text-align: center;
+    
   }
+  
+ 
 
-  #contact input {
-    height: 55px;
-  }
-
-  #contact button#cf-submit {
-    background: #ce3232;
-    border-radius: 0;
-    border: 0;
-    color: #ffffff;
-    font-weight: bold;
-    height: 50px;
-  }
-
-  #contact button#cf-submit:hover {
-    background: #292929;
-    color: #ffffff;
-  }
+ 
 
  
  .wp{
@@ -706,16 +692,22 @@ http://www.templatemo.com/tm-515-eatery
   
   }
 
-
-
+  @media (max-width:575px){                
+    .wp{                        /*hasta 575 va a mantener el width */    
+     width: 200px; 
+     height: 200px;
+                    
+    }
+  }
   /*---------------------------------------
      FOOTER              
   -----------------------------------------*/
 
   footer {
-    border-top: 1px solid rgba(0,0,0,0.05);
+    border-top: 5px solid rgba(20, 5, 75, 0.05);
     padding: 120px 0;
     padding-bottom: 80px;
+    
   }
 
   footer .section-title {
@@ -803,11 +795,11 @@ http://www.templatemo.com/tm-515-eatery
 
   .social-icon li a {
     border-radius: 100px;
-    color: #ce3232;
+    color: #e60790;
     font-size: 15px;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
     text-decoration: none;
     text-align: center;
     transition: all 0.4s ease-in-out;
@@ -815,7 +807,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .social-icon li a:hover {
-    background: #ce3232;
+    background: #080808;
     color: #ffffff;
   }
 
@@ -868,9 +860,7 @@ http://www.templatemo.com/tm-515-eatery
       width: 103%;
     }
 
-    #testimonial {
-      background-position: 50% 0 !important;
-    }
+    
 
     #google-map,
     .footer-info {
